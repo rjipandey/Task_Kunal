@@ -2,7 +2,7 @@
 # The magic constant of a normal magic square depends only on n and has the following value: 
 # M = n((n*n)+1)/2
 # M = 3((3*3)+1)/2 = 15
-s=eval(input())
+s=eval(input()) #enter a 3X3 Matrix(list)
 def formingMagicSquare(s):
     pre = [
         [[8, 1, 6], [3, 5, 7], [4, 9, 2]],
@@ -27,6 +27,6 @@ def formingMagicSquare(s):
 
 if __name__ == "__main__":
 
-	arr = [[5, 3, 4], [1, 5, 8], [6, 4, 2]]
-	print(formingMagicSquare(arr)) 
+	#arr = [[5, 3, 4], [1, 5, 8], [6, 4, 2]]
+	print(formingMagicSquare(s)) 
 
